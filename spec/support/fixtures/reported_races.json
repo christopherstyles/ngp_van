@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "reportedRaceId": 2,
+      "reportedRaceName": "Black or African American"
+    },
+    {
+      "reportedRaceId": 3,
+      "reportedRaceName": "Caucasian or White"
+    },
+    {
+      "reportedRaceId": 4,
+      "reportedRaceName": "Native American"
+    }
+  ],
+  "nextPageLink": "https://api.securevan.com/v4/reportedRaces?$top=3&$skip=4",
+  "count": 7
+}

@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "reportedSexualOrientationId": 2,
+      "reportedSexualOrientationName": "Androsexual"
+    },
+    {
+      "reportedSexualOrientationId": 3,
+      "reportedSexualOrientationName": "Asexual"
+    },
+    {
+      "reportedSexualOrientationId": 4,
+      "reportedSexualOrientationName": "Autosexual"
+    }
+  ],
+  "nextPageLink": "https://api.securevan.com/v4/reportedSexualOrientations?$top=3&$skip=4",
+  "count": 22
+}

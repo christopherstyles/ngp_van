@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "reportedLanguagePreferenceId": 2,
+      "reportedLanguagePreferenceName": "Cantonese"
+    },
+    {
+      "reportedLanguagePreferenceId": 3,
+      "reportedLanguagePreferenceName": "English"
+    },
+    {
+      "reportedLanguagePreferenceId": 4,
+      "reportedLanguagePreferenceName": "French"
+    }
+  ],
+  "nextPageLink": "https://api.securevan.com/v4/reportedLanguagePreferences?$top=3&$skip=4",
+  "count": 20
+}

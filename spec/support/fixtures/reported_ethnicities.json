@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "reportedEthnicityId": 2,
+      "reportedEthnicityName": "Arab"
+    },
+    {
+      "reportedEthnicityId": 3,
+      "reportedEthnicityName": "Asian Indian"
+    },
+    {
+      "reportedEthnicityId": 4,
+      "reportedEthnicityName": "Bangladeshi"
+    }
+  ],
+  "nextPageLink": "https://api.securevan.com/v4/reportedEthnicities?$top=3&$skip=4",
+  "count": 20
+}

@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "reportedGenderId": 19,
+      "reportedGenderName": "Androgyne"
+    },
+    {
+      "reportedGenderId": 1,
+      "reportedGenderName": "Androgynous"
+    },
+    {
+      "reportedGenderId": 20,
+      "reportedGenderName": "Bigender"
+    }
+  ],
+  "nextPageLink": "https://api.securevan.com/v4/reportedGenders?$top=3&$skip=4",
+  "count": 49
+}
