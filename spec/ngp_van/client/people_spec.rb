@@ -222,6 +222,28 @@ module NgpVan
           ).to eq('')
         end
       end
+
+      describe '#delete_code_from_person' do
+        let(:url) { build_url(client: client, path: 'people/215501/codes/123') }
+
+        before do
+          stub_request(:delete, url)
+            .to_return(status: 204)
+        end
+
+        it 'requests the correct resource' do
+          client.delete_code_from_person(id: 215_501, codeId: 123)
+          expect(
+            a_request(:delete, url)
+          ).to have_been_made
+        end
+
+        it 'returns an empty response body' do
+          expect(
+            client.delete_code_from_person(id: 215_501, codeId: 123)
+          ).to eq('')
+        end
+      end
     end
   end
 end
