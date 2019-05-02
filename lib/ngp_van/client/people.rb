@@ -32,11 +32,13 @@ module NgpVan
       end
 
       def apply_code_to_person(id:, body: {})
+        verify_id(id)
         post(path: "people/#{id}/codes", body: body)
       end
 
       def delete_code_from_person(id:, codeId:)
-        delete(path: "people/#{esc(id)}/codes/#{esc(codeId)}")
+        verify_ids(id, codeId)
+        delete(path: "people/#{id}/codes/#{codeId}")
       end
     end
   end
