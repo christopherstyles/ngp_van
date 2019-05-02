@@ -223,6 +223,33 @@ module NgpVan
         end
       end
 
+      describe '#apply_code_to_person' do
+        let(:url) { build_url(client: client, path: 'people/123123/codes') }
+        let(:request_body) { {'codeId' => 123456} }
+
+        before do
+          stub_request(:post, url)
+            .with(body: request_body.to_json)
+            .to_return(status: 204)
+        end
+
+        it 'sends the correct request' do
+          client.apply_code_to_person(id: 123123, body: request_body)
+          expect(
+            a_request(:post, url)
+              .with(
+                body: request_body
+              )
+          ).to have_been_made
+        end
+
+        it 'returns the empty response body' do
+          expect(
+            client.apply_code_to_person(id: 123123, body: request_body)
+          ).to eq('')
+        end
+      end
+
       describe '#delete_code_from_person' do
         let(:url) { build_url(client: client, path: 'people/215501/codes/123') }
 
