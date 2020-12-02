@@ -1,0 +1,83 @@
+{
+    "contact": {
+        "vanId": 10005165
+    },
+    "designation": {
+        "designationId": 18754
+    },
+    "dateReceived": "2013-12-25T12:23:00Z",
+    "amount": "12.34",
+    "coverCostsAmount": "2.34",
+    "status": "Settled",
+    "paymentType": "Check",
+    "bankAccount": "PNC Bank Account 1",
+    "contributionBankAccount": {
+        "bankAccountId": 9876,
+        "name": "PNC Bank Account 1"
+    },
+    "depositDate": "2013-12-28",
+    "depositNumber": 3,
+    "checkDate": "2013-12-25",
+    "checkNumber": "1222 123",
+    "contactAttributions": [
+        {
+          "vanId": 303,
+          "amountAttributed": "100.50",
+          "attributionType": "DefaultAttribution",
+          "notes": "some notes go here",
+          "dateThanked": "2013-12-30"
+        },
+        {
+          "vanId": 701,
+          "amountAttributed": "202.10",
+          "attributionType": "CorporateMatch",
+          "notes": "some notes go here",
+          "dateThanked": "2013-12-30"
+        }
+    ],
+    "onlineReferenceNumber": "1230230423",
+    "pledge": {
+        "pledgeId": 1035
+    },
+    "codes": [
+        { "codeId": 12345, "codeName": "Signup Form Source Code" }
+    ],
+    "directMarketingCode": "Excelsior Consulting",
+    "dateThanked": "2013-12-30",
+    "notes": "Processed as part of the Christmas Fundraiser",
+    "disclosureFieldValues": [
+        {
+          "disclosureFieldId": 190,
+          "disclosureFieldValue": "41",
+          "designationId": 1121
+        },
+        {
+          "disclosureFieldId": 40,
+          "disclosureFieldValue": "5",
+          "designationId": 1121
+        },
+        {
+          "disclosureFieldId": 1001,
+          "disclosureFieldValue": "John",
+          "designationId": 1121
+        }
+    ],
+    "extendedSourceCode" : {
+      "extendedSourceCodeId": 12
+    },
+    "identifiers": [
+        {
+          "type": "ActBlue ID",
+          "externalId": "123456"
+        }
+    ],
+    "financialBatchId": 825,
+    "processedAmount": 3,
+    "processedCurrency": "USD",
+    "acceptedOneTimeAmount": "12.34",
+    "acceptedRecurringAmount": "5.67",
+    "selectedOneTimeAmount": "20.00",
+    "upsellType": "Split",
+    "isUpsellShown": true,
+    "isUpsellAccepted": true
+}
