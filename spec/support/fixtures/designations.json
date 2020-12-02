@@ -1,0 +1,12 @@
+{
+  "items" : [
+    {
+      "designationId": 123456789,
+      "name": "Jane for Congress Committee"
+    },
+    {
+      "designationId": 123456790,
+      "name": "Jane Smith Progressive Leadership PAC"
+    }
+  ]
+}
