@@ -6,6 +6,7 @@ require 'ngp_van/response'
 require 'ngp_van/client/activist_codes'
 require 'ngp_van/client/canvass_responses'
 require 'ngp_van/client/codes'
+require 'ngp_van/client/contributions'
 require 'ngp_van/client/demographics'
 require 'ngp_van/client/designations'
 require 'ngp_van/client/district_fields'
@@ -54,6 +55,7 @@ module NgpVan
     include NgpVan::Client::ActivistCodes
     include NgpVan::Client::CanvassResponses
     include NgpVan::Client::Codes
+    include NgpVan::Client::Contributions
     include NgpVan::Client::Demographics
     include NgpVan::Client::Designations
     include NgpVan::Client::DistrictFields

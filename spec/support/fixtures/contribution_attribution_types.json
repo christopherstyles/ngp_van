@@ -1,0 +1,16 @@
+{
+  "attributionTypes": [
+    "BoardMemberGiving",
+    "CorporateMatch",
+    "DefaultAttribution",
+    "DonorAdvisedFund",
+    "DonorMatch",
+    "FamilyPrivateFoundation",
+    "FinanceCommittee",
+    "GiftMembership",
+    "RaisedContribution",
+    "TributeGift",
+    "TallyMember",
+    "WorkplaceGiving"
+  ]
+}
